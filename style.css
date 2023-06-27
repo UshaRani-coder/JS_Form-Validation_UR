@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg,#FF69B4, #00FFFF);
+}
+form{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 65vh;
+    padding: 0 2.5em;
+    box-shadow: 7px 7px 10px  rgba(0,0,0,0.3);
+}
+h3{
+    padding-top: 10px;
+}
+.labeldiv{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: blue;
+    color: #ffffff;
+    border:0;
+    font-weight: 900;
+    padding: 0.3em 4em;
+    border-radius: 5px;
+}
+#name,#email,#password,#confirm{
+    padding-left: 5px;
+}
+
+.name,.email,.confirm{
+    color: red;
+    font-size: 10px;
+    padding-top: 0;
+}
+.password{
+    color: red;
+    font-size: 10px;
+    padding-top: 0;
+    width: 150px;
+}
+
+
+

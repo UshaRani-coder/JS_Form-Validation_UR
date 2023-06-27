@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Lobster&family=Prompt:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <form id="form">
+    <h3>SIGN UP FORM</h3>
+    <div class="labeldiv">
+    <label for="name">Username:</label>
+    <input type="text" id="name" placeholder="viya" onkeyup="userNameValidate()" >
+    <div class="name" ></div>
+    </div>
+    <div class="labeldiv">
+    <label for="email">Email:</label>
+    <input type="text" id="email" placeholder="hello@example.com"  >
+    <div class="email"></div>
+    </div>
+    <div class="labeldiv">
+    <label for="password">Password:</label>
+    <input type="password" id="password">
+    <div class="password"></div>
+    </div>
+    <div class="labeldiv">
+    <label for="confirm">Confirm Password</label>
+    <input type="password" id="confirm"> 
+    <div class="confirm"></div>
+    </div>
+     <button type="submit" >Sign Up</button>
+    </form>
+<script src="script.js"  ></script>
+</body>
+</html>
